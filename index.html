@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learner's Profile Form</title>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background:#f4f6f9;
+        padding:20px;
+    }
+
+    .container{
+        max-width:900px;
+        margin:auto;
+        background:white;
+        padding:25px;
+        border-radius:10px;
+        box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2, h3{
+        text-align:center;
+        color:#003366;
+    }
+
+    label{
+        display:block;
+        margin-top:10px;
+        font-weight:bold;
+    }
+
+    input, select, textarea{
+        width:100%;
+        padding:8px;
+        margin-top:5px;
+        border:1px solid #ccc;
+        border-radius:5px;
+        box-sizing:border-box;
+    }
+
+    table{
+        width:100%;
+        border-collapse:collapse;
+        margin-top:15px;
+    }
+
+    th, td{
+        border:1px solid #ccc;
+        padding:8px;
+        text-align:center;
+    }
+
+    th{
+        background:#003366;
+        color:white;
+    }
+
+    button{
+        margin-top:20px;
+        padding:10px 20px;
+        background:#003366;
+        color:white;
+        border:none;
+        border-radius:5px;
+        cursor:pointer;
+    }
+
+    button:hover{
+        background:#00509e;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Learner's Profile Form</h2>
+
+<form>
+
+<h3>Personal Information</h3>
+
+<label>LRN</label>
+<input type="text">
+
+<label>First Name</label>
+<input type="text">
+
+<label>Middle Name</label>
+<input type="text">
+
+<label>Last Name</label>
+<input type="text">
+
+<label>Date of Birth</label>
+<input type="date">
+
+<label>Birth Place</label>
+<input type="text" placeholder="City/Municipality, Province">
+
+<label>Gender</label>
+<select>
+    <option>Select Gender</option>
+    <option>Male</option>
+    <option>Female</option>
+</select>
+
+<label>Civil Status</label>
+<select>
+    <option>Select Status</option>
+    <option>Single</option>
+    <option>Married</option>
+    <option>Separated</option>
+    <option>Widowed</option>
+</select>
+
+<label>Life Status</label>
+<select>
+    <option>Select Status</option>
+    <option>Living with Parents</option>
+    <option>Living with Guardian</option>
+    <option>Independent</option>
+</select>
+
+<label>Language Spoken</label>
+<input type="text">
+
+<label>Gmail Address</label>
+<input type="email" placeholder="example@gmail.com">
+
+<label>Home Address</label>
+<textarea rows="3"></textarea>
+
+<label>Parent/Guardian Name</label>
+<input type="text">
+
+<label>Relationship to Learner</label>
+<input type="text">
+
+<label>Contact Number</label>
+<input type="tel">
+
+
+<h3>Student Records</h3>
+
+<table>
+
+<tr>
+<th>Grade Level</th>
+<th>School Name</th>
+<th>School Year</th>
+<th>Section</th>
+</tr>
+
+<tr>
+<td>Grade 6</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>Grade 7</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>Grade 8</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>Grade 9</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>Grade 10</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>Grade 11</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+
+</table>
+
+<button type="submit">Submit</button>
+<button type="reset">Clear</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
